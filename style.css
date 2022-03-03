@@ -1,0 +1,544 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Alegreya", serif;
+}
+h3 {
+  font-size: 22px;
+  color: #303030;
+}
+h2 {
+  font-size: 32px;
+  margin-top: 50px;
+  line-height: 44.16px;
+  color: #303030;
+  padding: 10px;
+}
+p,
+ul,
+li {
+  font-size: 17px;
+  line-height: 31.62px;
+  padding: 10px;
+  color: #070707;
+}
+
+/* nav bar*/
+.logo {
+  float: left;
+  height: 12%;
+  width: 50;
+}
+.logo img {
+  width: 150px;
+  margin-top: 11px;
+}
+/*header*/
+.layer {
+  background-color: black;
+  position: absolute;
+
+  height: 100%;
+  width: 100%;
+  opacity: 0.4;
+}
+.header {
+  background-image: url(images/images.jpg);
+  height: 100vh;
+  background-size: 90% 90%;
+  border-top: 1px solid transparent;
+}
+.head-title {
+  width: 100%;
+  text-align: center;
+  margin-top: 270px;
+  z-index: 99999;
+  position: absolute;
+}
+.head-title h3 {
+  font-size: 22px;
+  color: #ffffff;
+  line-height: 40.92px;
+}
+.head-title h1 {
+  font-size: 76px;
+  color: #ffffff;
+  line-height: 91.2px;
+}
+.head-title p {
+  font-size: 24px;
+  color: #ffffff;
+  line-height: 44.64px;
+}
+.head-title .a:hover {
+  background-color: #ffffff;
+  color: #222222;
+}
+.head-title .b:hover {
+  background-color: #ffffff;
+  color: #333333;
+}
+.head-title .a {
+  padding: 20 45;
+  background-color: #8e7754;
+  color: #ffffff;
+  font-size: 16px;
+  border: none;
+  border-radius: 8%;
+  margin-top: 20px;
+  margin-right: 5px;
+}
+.head-title .b {
+  padding: 20 45;
+  background-color: #8e7754;
+  color: #ffffff;
+  font-size: 16px;
+  border: none;
+  border-radius: 8%;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
+/* about our agency section */
+.contain {
+  overflow: auto;
+  width: 100%;
+  margin: auto;
+  padding: 70 100;
+}
+.img {
+  float: left;
+  width: 45%;
+  padding: 15 60 20 0;
+}
+.img img {
+  width: 110%;
+}
+.content {
+  float: left;
+  width: 50%;
+  padding: 0 0 0 10;
+}
+
+/*Our Location  section*/
+.contain-2 {
+  overflow: auto;
+  width: 100%;
+  margin: auto;
+  padding: 70 100;
+  background-color: #f3c1dd;
+}
+.content-2 {
+  float: left;
+  width: 50%;
+  padding: 35 25 0 0;
+}
+.img-2 {
+  float: left;
+  width: 40%;
+  padding: 15 0 0 30;
+}
+.img-2 img {
+  width: 90%;
+}
+
+/* our services */
+
+.title {
+  overflow: auto;
+  text-align: center;
+  padding-bottom: 55px;
+}
+.title h2 {
+  margin: 0px;
+}
+.sec4-content {
+  overflow: auto;
+  text-align: center;
+}
+.sec4-content .img-3 h3 {
+  padding-top: 30px;
+}
+.sec4-content .img-3 p {
+  padding-top: 30px;
+}
+.img-3 {
+  width: 33%;
+  float: left;
+  padding: 0 20 0 20;
+}
+.img-3 img {
+  width: 100%;
+}
+
+/* Contact Information section*/
+
+.content-3 {
+  float: left;
+  width: 50%;
+  padding: 0 25 0 0;
+}
+.contain-2 .img-2 {
+  width: 50%;
+}
+.contain-2 .img-2 iframe {
+  width: 100%;
+  height: 500px;
+}
+
+/* about us*/
+
+.contain-4 {
+  overflow: auto;
+  width: 100%;
+  margin: auto;
+  padding: 70 90;
+  background-color: #403d38;
+}
+.content-4 {
+  float: left;
+  width: 25%;
+  padding: 15px;
+}
+.contain-4 .content-4 h4 {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 28.84px;
+}
+.contain-4 .content-4 h5 {
+  color: #969696;
+  font-size: 16px;
+  line-height: 31.62px;
+  padding: 10px 0;
+}
+.contain-4 .content-4 hr {
+  border-color: #969696;
+  opacity: 0.3;
+}
+
+/* footer section*/
+.footer {
+  background-color: #fcf7fa;
+  text-align: center;
+  padding: 70;
+}
+.footer p {
+  color: #a7206a;
+}
+.footer .fa {
+  padding: 15px;
+  font-size: 15px;
+  width: 40px;
+  height: 40px;
+  text-align: left;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa-facebook:hover {
+  background: #3b5998;
+}
+
+.fa-instagram:hover {
+  background: #990585;
+}
+
+.fa-facebook {
+  background-color: #403d38;
+  color: white;
+}
+
+.fa-instagram {
+  background: #403d38;
+  color: white;
+}
+
+/* Responsive with many sizes of all content .....................*/
+
+@media all and (max-width: 1200px) and (min-width: 992px) {
+  /* about agency section */
+  .contain {
+    padding: 40 90;
+  }
+  .content {
+    width: 50%;
+    padding-left: 40;
+  }
+  .img {
+    width: 50%;
+    margin-top: 60px;
+    padding: 15 20 20 0;
+  }
+
+  /*Our Location  section*/
+  .contain-2 {
+    padding: 40 90;
+  }
+  .content-2 {
+    width: 50%;
+    padding: 35 25 0 0;
+  }
+  .img-2 {
+    width: 50%;
+    padding: 50 0 0 30;
+  }
+}
+@media all and (max-width: 992px) and (min-width: 768px) {
+  /* about our agency  section */
+  .contain {
+    padding: 40 40;
+  }
+  .content {
+    width: 50%;
+    padding-left: 20;
+  }
+  .img {
+    width: 50%;
+    margin-top: 80px;
+    padding: 15 20 20 0;
+  }
+
+  /*Our Location  section*/
+  .contain-2 {
+    padding: 40;
+  }
+  .content-2 {
+    width: 50%;
+    padding: 15 10 0 0;
+  }
+  .img-2 {
+    width: 50%;
+    margin-top: 70;
+    padding: 50 0 0 30;
+  }
+  /* about us*/
+
+  .contain-4 {
+    padding: 25;
+  }
+  .content-4 {
+    width: 25%;
+    padding: 10px;
+  }
+}
+@media all and (max-width: 768px) and (min-width: 576px) {
+  /*header*/
+
+  .head-title {
+    margin-top: 300px;
+  }
+  .head-title h1 {
+    font-size: 34px;
+    line-height: 40.8px;
+  }
+  .head-title p {
+    font-size: 16px;
+    line-height: 29.76px;
+  }
+
+  /* our agency section */
+  .contain {
+    padding: 70 40;
+  }
+  .content {
+    width: 100%;
+  }
+  .img {
+    width: 100%;
+    padding: 15 0 20 0;
+  }
+
+  /*Our Location  section*/
+  .contain-2 {
+    padding: 70 40;
+  }
+  .content-2 {
+    width: 100%;
+    padding: 35 0 0 0;
+  }
+  .img-2 {
+    width: 100%;
+    padding: 15 0 0 0;
+  }
+  /* our services */
+
+  .sec4-content .img-3 p {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .img-3 {
+    width: 100%;
+    padding: 0;
+  }
+  /* Contact Information section*/
+  .content-3 {
+    width: 100%;
+    padding: 0 0 0 0;
+  }
+  .contain-2 .img-2 {
+    width: 100%;
+  }
+  /* about us*/
+
+  .contain-4 {
+    padding: 70 25;
+  }
+  .content-4 {
+    width: 50%;
+    padding: 15px;
+  }
+}
+@media all and (max-width: 576px) and (min-width: 0px) {
+  /*header*/
+
+  .head-title {
+    margin-top: 300px;
+  }
+  .head-title h1 {
+    font-size: 34px;
+    line-height: 40.8px;
+  }
+  .head-title p {
+    font-size: 16px;
+    line-height: 29.76px;
+  }
+  .head-title .a {
+    padding: 10 25;
+    font-size: 14px;
+  }
+  .head-title .b {
+    padding: 10 25;
+    font-size: 14px;
+  }
+
+  /* about our agency section */
+  .contain {
+    padding: 70 25;
+  }
+  .content {
+    width: 100%;
+  }
+  .img {
+    width: 100%;
+    padding: 15 0 20 0;
+  }
+
+  /*Our Location  section*/
+  .contain-2 {
+    padding: 70 25;
+  }
+  .content-2 {
+    width: 100%;
+    padding: 0 25 15 0;
+  }
+  .img-2 {
+    width: 100%;
+    padding: 15 0 0 0;
+  }
+  /* our services */
+
+  .sec4-content .img-3 p {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .img-3 {
+    width: 100%;
+    padding: 0;
+  }
+  /* contact information section*/
+  .content-3 {
+    width: 100%;
+    padding: 0 0 0 0;
+  }
+  .contain-2 .img-2 {
+    width: 100%;
+  }
+  /* about us*/
+
+  .contain-4 {
+    padding: 70 25;
+  }
+
+  .content-4 {
+    width: 100%;
+    padding: 15px;
+  }
+}
+/*..............................*/
+
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: rgb(248, 242, 246);
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: right;
+  font-size: 16px;
+  color: rgb(12, 11, 11);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 1s;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: rgb(19, 17, 17);
+  padding: 14px 16px;
+  transition: 1s;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: rgb(253, 245, 251);
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fcf9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  transition: 1s;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  transition: 1s;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: rgb(117, 108, 116);
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
